@@ -202,7 +202,7 @@ display:flex;
 word-wrap :break-word;    
 flex-direction: column;
 justify-content: space-between;
-align-items: center;
+align-items: flex-start;
 padding:15px;
 min-width: 400px;
 min-height: 220px;
