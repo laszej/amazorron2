@@ -292,7 +292,7 @@ body{background-color: lightgray;
 
 
 @media only screen and (max-width: 600px){
-    body{background-color: teal;}
+    body{background-color: #0F1111;;}
 }
 
 .cartP{margin-top: 10px;
