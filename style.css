@@ -4,6 +4,8 @@
     }
 
 @media only screen and (max-width: 600px) {
+    
+    
     header{
          display:flex;
         flex-direction:column;
@@ -167,7 +169,7 @@ margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px){
-    #container{margin-top: 200px; background-color: teal;}  
+    #container{margin-top: 200px; }  
 }
 
 
@@ -286,6 +288,11 @@ height:600px;
 
 body{background-color: lightgray;
     font-family: 'Ubuntu', sans-serif;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{background-color: teal;}
 }
 
 .cartP{margin-top: 10px;
