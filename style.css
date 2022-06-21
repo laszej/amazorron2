@@ -169,7 +169,7 @@ margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px){
-    #container{margin-top: 200px; }  
+    #container{margin-top: 200px; background-color: steelblue;}  
 }
 
 
@@ -292,7 +292,7 @@ body{background-color: lightgray;
 
 
 @media only screen and (max-width: 600px){
-    body{background-color: #0F1111;;}
+    body{background-color: steelblue;}
 }
 
 .cartP{margin-top: 10px;
