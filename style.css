@@ -165,6 +165,7 @@ flex-direction:column;
 align-items: center;
 background-color: lightgray;
 margin-top: 10px;
+transition: ease-in-out;
 
 }
 
@@ -255,14 +256,14 @@ font-size: 12px;
 
     .addButton1:active{
         animation-name: clicked;
-        animation-duration: 1s;
+        animation-duration: 100ms;
     } 
 
         @keyframes clicked { 
             from { 
                 transform: scale(1); 
             } to { 
-                transform: scale(5); 
+                transform: scale(2); 
             }}
 
 @media only screen and (max-width: 600px){
@@ -271,6 +272,9 @@ font-size: 12px;
 
 
 
+.login{
+    display:none;
+}
 
 #bagOpen{
 overflow: scroll;   
@@ -283,6 +287,30 @@ background-color: #0F1111;
 width:600px;
 height:600px;
 }
+
+.loginDiv{  
+box-sizing: border-box;
+position: absolute;
+display:flex;
+justify-content:space-between;
+top: 100px;
+display:flex;
+flex-direction:column;
+align-items:center;
+background-color: #0F1111;
+width:300px;
+height:200px;
+color:white;
+padding:10px;
+}
+
+.loginDiv > input{
+    width:250px;
+    height:30px;
+    border-radius:5px;
+    outline:none;
+}
+
 
 #bag{display: none;}
 
@@ -313,6 +341,32 @@ align-items:space-between;
 #bagContainer{
      display: flex; flex-direction: column-reverse; 
 }
+
+.adAnimation{
+    position: absolute;
+    display:flex;
+    min-width:300px;
+    min-height:300px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+.delete-icon{
+    position:absolute;
+    top: 5%;
+    left:90%
+}
+#passBtn{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+}
+
+
 
 
 
